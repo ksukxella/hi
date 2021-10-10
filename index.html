@@ -5,141 +5,193 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css" />
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Forum&family=Roboto:wght@100&display=swap" rel="stylesheet">
-
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Forum&family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+  <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+  <link href="https://vjs.zencdn.net/7.15.4/video-js.css" rel="stylesheet" />
+  <link href="https://unpkg.com/@videojs/themes@1/dist/forest/index.css" rel="stylesheet">
+  
   <title>museum</title>
 </head>
 <body>
-  <header>
-    <nav class="aha">
-    <div class="container dark-section">
-    <div class="header-container ">
-      <div><img src="assets/svg/logo.svg" class="img" alt="logo"></div>
-     <div>
+  
+  <header class="header">
+    <nav class="nav-header section">
+      <div class="header-links1"><img src="assets/svg/logo.svg" class="img" alt="logo">  </div>
+      <div class="header-links2">
       <ul>
-      <li><a href="#visiting" class="link">Visiting</a></li>
-      <li><a href="#exploring"class="link">Explore</a></li>
-      <li><a href="#video"class="link">Video</a></li>
-      <li><a href="#Galery"class="link">Galery</a></li>
-      <li><a href="#Tickets"class="link">Tickets</a></li>
-      <li><a href="#Contacts"class="link">Contacts</a></li>
+      <li><a href="#visiting" class="h_roboto2 link">Visiting</a></li>
+      <li><a href="#exploring"class="h_roboto2 link ">Explore</a></li>
+      <li><a href="#video"class="h_roboto2 link">Video</a></li>
+      <li><a href="#Galery"class="h_roboto2 link ">Galery</a></li>
+      <li><a href="#Tickets"class="h_roboto2 link">Tickets</a></li>
+      <li><a href="#Contacts"class="h_roboto2 link">Contacts</a></li>
       </ul>
-    </div>
-  </div>
-  </div>
+      </div>
 </nav>
   </header>
 
   <main>
-    <section class="welcome section dark-section">
-      <div class="container">
-        <div class="welcome-container">
-       <div><h1>Welcome<br> to the Louvre</h1>
-        <p class="white_paragh">From the castle to the museum</p>
-        <a href="tours/tour7.html"target="_blank"><button class="button">Discover the Louvre</button></a></div>
-        <div><img src="assets/img/mona.png" class="mona"alt="mona"></div>
+ 
+    <section class="Welcome-section dark-section section" id="welcome">
+      <div class="welcome-container">
+       <div><h1 class="welcome">Welcome<br> to the Louvre</h1>
+        <p class="white h_roboto1">From the castle to the museum</p>
+        <a href="tours/tour7.html"target="_blank"><button class="button h_roboto2">Discover the Louvre</button></a></div>
+        
+        <div class="wrapper">
+          <div class="image-slider swiper-container">
+          
+            <div class="image-slider_wrapper swiper-wrapper">
+            <div class="image-slider_slide swiper-slide">
+            <div class="image-slider_image">
+            <img src="assets/img/1.jpg">
+            </div>
+          </div>
+          <div class="image-slider_slide swiper-slide">
+            <div class="image-slider_image">
+              <img src="assets/img/2.jpg">
+            </div>
+          </div>
+          <div class="image-slider_slide swiper-slide">
+            <div class="image-slider_image">
+              <img src="assets/img/3.jpg">
+            </div>
+          </div>
+          <div class="image-slider_slide swiper-slide">
+            <div class="image-slider_image">
+              <img src="assets/img/4.jpg">
+            </div>
+          </div>
+          <div class="image-slider_slide swiper-slide">
+            <div class="image-slider_image">
+              <img src="assets/img/5.jpg">
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination"></div>
       </div>
-      </div>
+      
+    </div>
+  </div>
+ 
     </section>
 
 
-    <section class="Visiting section" id="visiting">
-      <div class="container">
-        <h2 class=" par_yellow underline-title">Virtual Tour</h2>
+    <section class="Visiting-section section" id="visiting">
+      <div class="visiting-container">
+        <h2 class=" h_visiting underline-title ">Virtual Tour</h2>
 
-      <div class="visit-container">
-        <div>
-        <a href="tours/tour1.html"target="_blank"><img src="assets/img/img1.jpg"class="first_img" alt="visit"></a>
-        <h3 class="dark-title underline-title2">Royal Palace</h3>
-        <p class="line1">360°Virtual Tour</p>
-        <p class="line2">Google Street Panorama View</p>
-      </div>
-
-        <div >
-        <a href="tours/tour2.html"target="_blank" ><img src="assets/img/img2.jpg"class="first_img"alt="visit"></a>
-        <h3 class="dark-title underline-title2">Denon Wing</h3>
-        <p class="line1">360°Virtual Tour</p>
-        <p class="line2">Google Street Panorama View</p>
-      </div>
-
-        <div >
-        <a href="tours/tour3.html"target="_blank"><img src="assets/img/img3.jpg"class="first_img"alt="visit"></a>
-        <h3 class="dark-title underline-title2">Colonnade Perrault</h3>
-        <p class="line1">360°Virtual Tour</p>
-        <p class="line2">Google Street Panorama View</p>
-      </div>
-
-        <div >
-        <a href="tours/tour4.html"target="_blank"><img src="assets/img/img4.jpg"class="first_img"alt="visit"></a>
-        <h3 class="dark-title underline-title2">Greek Hall</h3>
-        <p class="line1">360°Virtual Tour</p>
-        <p class="line2">Google Street Panorama View</p>
-      </div>
-
-        <div >
-        <a href="tours/tour5.html"target="_blank"><img src="assets/img/img5.jpg"class="first_img"alt="visit"></a>
-        <h3 class="dark-title underline-title2">Mona Lisa</h3>
-        <p class="line1">360°Virtual Tour</p>
-        <p class="line2">Google Street Panorama View</p>
+      
+        <div class="tours_images">
+        <div text_invisiting>
+        <a href="tours/tour1.html"target="_blank"><img src="assets/img/img1.jpg"class="tours_images_each" alt="visit"></a>
+        <h3 class="h_forum2 dark-title underline-title2">Royal Palace</h3>
+        <p class="line1 h_roboto3">360°Virtual Tour</p>
+        <p class="line1 h_roboto3">Google Street Panorama View</p>
       </div>
 
         <div>
-        <a href="tours/tour6.html"target="_blank"><img src="assets/img/img6.jpg"class="first_img"alt="visit"></a>
-        <h3 class="dark-title underline-title2">Night Palace</h3>
-        <p class="line1">360°Virtual Tour</p>
-        <p class="line2">Google Street Panorama View</p>
+        <a href="tours/tour2.html"target="_blank" ><img src="assets/img/img2.jpg"class="tours_images_each"alt="visit"></a>
+        <h3 class="h_forum2 dark-title underline-title2">Denon Wing</h3>
+        <p class="line1 h_roboto3">360°Virtual Tour</p>
+        <p class="line1 h_roboto3">Google Street Panorama View</p>
       </div>
+        <div>
+        <a href="tours/tour3.html"target="_blank"><img src="assets/img/img3.jpg"class="tours_images_each"alt="visit"></a>
+        <h3 class="h_forum2 dark-title underline-title2">Colonnade Perrault</h3>
+        <p class="line1 h_roboto3">360°Virtual Tour</p>
+        <p class="line1 h_roboto3">Google Street Panorama View</p>
+      </div>
+
+        <div>
+        <a href="tours/tour4.html"target="_blank"><img src="assets/img/img4.jpg"class="tours_images_each"alt="visit"></a>
+        <h3 class="h_forum2 dark-title underline-title2">Greek Hall</h3>
+        <p class="line1 h_roboto3">360°Virtual Tour</p>
+        <p class="line1 h_roboto3">Google Street Panorama View</p>
+      </div>
+
+        <div >
+        <a href="tours/tour5.html"target="_blank"><img src="assets/img/img5.jpg"class="tours_images_each"alt="visit"></a>
+        <h3 class="h_forum2 dark-title underline-title2">Mona Lisa</h3>
+        <p class="line1 h_roboto3">360°Virtual Tour</p>
+        <p class="line1 h_roboto3">Google Street Panorama View</p>
+      </div>
+
+        <div>
+        <a href="tours/tour6.html"target="_blank"><img src="assets/img/img6.jpg"class="tours_images_each"alt="visit"></a>
+        <h3 class= "h_forum2 dark-title underline-title2">Night Palace</h3>
+        <p class="line1 h_roboto3">360°Virtual Tour</p>
+        <p class="line1 h_roboto3">Google Street Panorama View</p>
       </div>
     </div>
+      </div>
     </section>
 
 
-    <section class="Explore section dark-section" id="exploring">
-      <div class="container">
+    <section class="Explore-section dark-section section" id="exploring">
       <div class="explore-container">
         <div class="explor">
-          <h2 class="white-title">Picture Explore</h2>
-          <p class="white_paragh">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Dignissimos, fugit autem aut provident maxime beatae soluta.</p>
-          <p class="white_paragh">Lorem ipsum dolor sit amet <span class="letter">consectetur</span> adipisicing elit.<br> Dignissimos, fugit autem aut provident maxime beatae soluta.</p>
-          <p class="white_paragh">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Dignissimos, fugit autem aut provident maxime beatae soluta.</p>
+          <h2 class="white-title underline-title2">Picture Explore</h2>
+          <p class="par_1 white_paragh h_roboto4 ">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Dignissimos, fugit autem aut provident maxime beatae soluta.</p>
+          <p class="par_2 white_paragh h_roboto4">Lorem ipsum dolor sit amet <span class="letter">consectetur</span> adipisicing elit.<br> Dignissimos, fugit autem aut provident maxime beatae soluta.</p>
+          <p class="par_3 white_paragh h_roboto4">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Dignissimos, fugit autem aut provident maxime beatae soluta.</p>
         </div>
       </div>
-    </div>
+  
     </section>
 
 
-    <section class="Video video-section "id="video">
-      <div class="container">
-        <h2 class="par_yellow">Video Journey</h2>
-        
+    <section class="Video-section video-section "id="video">
       <div class="video-container">
-      
-         <div class="video_pictures">
-          <img src="assets/img/poster1.jpg"alt="video">
-          <input type="range" value="40" min="0" max="100" step="1" class="progress">
+        <div class="video_pictures1">
+        <h2 class="h_video1 ">Video Journey</h2>
+        <h4 class="h_video2 h_roboto4 video-section ">Enter and visit one of the most famous museums in the world and enjoy<br>modern pieces such as Mona Lisa or Hammurabi's Code</h2>
+         <video width="1440" height="650" controls class="video-js video-js-forest vjs-theme-forest " id="video-1">
+          <source src="assets/video/paris.mp4" type="video/mp4">
+         </video>  
         </div>
-        <div class="video_pictures">
-          <img src="assets/img/item0.jpg"alt="video">  
+
+          <div class="wrapper2">
+            <div class="image-slider2 swiper-container2">
+              <div class="image-slider_wrapper2 swiper-wrapper2">
+              <div class="image-slider_slide2 swiper-slide2">
+              <div class="image-slider_image2">
+                <iframe width="452" height="254" src="https://www.youtube.com/embed/aWmJ5DgyWPI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="image-slider_slide2 swiper-slide2">
+              <div class="image-slider_image2">
+                <iframe width="452" height="254" src="https://www.youtube.com/embed/Vi5D6FKhRmo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="image-slider_slide2 swiper-slide2">
+              <div class="image-slider_image2">
+                <iframe width="452" height="254" src="https://www.youtube.com/embed/NOhDysLnTvY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-prev2"></div>
+          <div class="swiper-button-next2"></div>
+          <div class="swiper-pagination2"></div>
         </div>
-        <div class="video_pictures">
-          <img src="assets/img/item1.jpg"alt="video">  
-        </div>
-        <div class="video_pictures">
-          <img src="assets/img/item2.jpg"alt="video">  
-        </div>
+        
       </div>
+        </div> 
     </div>
     </section>
 
-    <section class="Gallery dark-section"id="Galery">
-      <div class="picture-container">
-        <h2 class= "white-title">Art Gallery</h2>
-      <div class="inner-picture-container">
-       
+    <section class="Gallery-section dark-section section "id="Galery">
+      <div class="gallery-container">
+      <h2 class= "white">Art Gallery</h2>
+      
+      
        
         <div class="gallery_pictures">
         <img src="assets/img/galery1.jpg" alt="gallery"> 
@@ -176,16 +228,18 @@
         <img src="assets/img/galery12.jpg"alt="gallery"> </div>
    
       </div>
-    </div>
+    
+  </div>
     </section>
 
-    <section class="Tickets section"id="Tickets">
-      <div class="container">
-        <h2 class= "par_yellow underline-title ">Buy Tickets</h2>
-        <div class="tickets-container">
-        <div> <img src="assets/img/rectangle.jpg"alt="tickets"></div>
-      
-        <div class="ticket_type"> <h4></b>Ticket Type</b></h4>
+    <section class="Tickets-section section"id="Tickets">
+      <div class="tickets-container">
+
+        <h2 class= "h_tickets underline-title  ">Buy Tickets</h2>
+
+        <div class="buy-tickets h_roboto5">
+          <div> <img src="assets/img/rectangle.jpg"alt="tickets"></div>
+          <div class="ticket-type"><h4></b>Ticket Type</b></h4>
           <label class="container2">Permanent exhibition
             <input type="radio" checked="checked" name="radio">
             <span class="checkmark"></span>
@@ -199,53 +253,78 @@
           <label class="container2">Combined Admission
             <input type="radio" name="radio">
             <span class="checkmark"></span>
-          </label></div>
-          </div>     
-         </div>     
-         <div><img src="assets/img/par.jpg" class="img_tickets"alt="tickets"></div>
+          </label></div></div>
+
+          
+           <button class="button_tickets" id="myBtn">Buy Now</button>
+           <div id="myModal" class="modal">
+             <div class="modal-content">
+               <img src="assets/svg/logo2.svg">
+               <h2 class="booking_tickets">Booking Tickets</h2>
+               <h4 class="tourto_louvre underline-title2">Tour to louvre</h4>
+               <input type="date" id="date" name="date-start" value="Date"   min="2020-01-01" max="2020-12-31">
+               <input type="time" id="time" name="time-start" value="Date"  min="01.00" max="00.00">
+            
+               
+
+                <!-- <form action="#" class="form">
+                  <div class="form__field">
+                    <input type="text" name="name" placeholder="Имя*" required />
+                  </div>
+                  <div class="form__field">
+                    <input type="email" name="name" placeholder="E-Mail" />
+                    <span class="form__error">Это поле должно содержать E-Mail в формате example@site.com</span>
+                  </div>
+                  <div class="form__field">
+                    <input type="tel" name="name" placeholder="Телефон" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" minlength="18" maxlength="18" />
+                    <span class="form__error">Это поле должно содержать телефон в формате +7 (123) 456-78-90</span>
+	               </div>
+              </form> -->
+          
+               <span class="close">&times;</span>  
+             </div>
+           </div>
+          </div>        
     </section> 
 
-   
+    <div class="parallax"></div>
 
 
-    <section class="Contacts section "id="Contacts">
-      <div class="container">
-        <h2 class= "par_yellow underline-title ">Contacts</h2>
-        <div class="contact-container">
+    <section class="Contacts-section section"id="Contacts">
+      <div class="contacts-container">
+        <h2 class= "h_contacts underline-title ">Contacts</h2>
+        <div class="div-container1">
         <div><b> <p>Palais Royal<br>Musee du Louvre</b> </p>
          <div><a href="https://goo.gl/maps/64tGEhxpAgZW6X9o9"class="text-decor contact_link margin"><p >address: 75001 Paris,France</p></a></div>
          <div><a href="tel:+33(0)1%2040 20 50 50"class="text-decor contact_link">phone:+33(0)1&nbsp;40&nbsp;20&nbsp;50&nbsp;50</a></div>
          <div><a href="mailto:info@louvre.fr"class="text-decor contact_link ">mail:info@louvre.fr</a></div>
           
         </div>
-        <div><img src="assets/img/map.jpg" class="contact_img"alt="tickets"></div>       
+        <div class="div-container2"><iframe width='960px' height='620px' padding-right='50px' src="https://api.mapbox.com/styles/v1/ksukxella/ckuk7lkf0cean17mp62ug3t51.html?title=false&access_token=pk.eyJ1Ijoia3N1a3hlbGxhIiwiYSI6ImNrdTE0M2czaDBsYWoycHQ5ZG11b3Aza2kifQ.M20hyX2SajCrqctjsbT0Xw&zoomwheel=false#15.28/48.860821/2.336642" title="Monochrome" style="border:none;"></iframe></div>       
       </div>
       </div>   
     </section>
+  </div>
   </main>
 
-  <footer>
-    <div class="container section">
-      <div class="footer">
-        <div><img src="assets/svg/logo.svg" class="footer_img" alt="footer"></div>
-        <div class="link" >
+  <footer class="footer section">
+    <nav class="nav-footer">
+      <div class="footer-row h_roboto2 ">
+        <div class="logo"><img src="assets/svg/logo.svg" alt="footer"></div>
+        
           <ul class="footer_column">
             <li><a href="#visiting" class="white text-decor link">Visiting</a></li>
             <li><a href="#exploring"class="white text-decor link">Explore</a></li>
             <li><a href="#video"class="white text-decor link">Video</a></li>
           </ul>
-        </div>
-
-        <div class="link" >
+       
           <ul class="footer_column">
             <li><a href="#Galery"class="white text-decor link">Galery</a></li>
             <li><a href="#Tickets"class="white text-decor link">Tickets</a></li>
             <li><a href="#Contacts"class="white text-decor link">Contacts</a></li>
           </ul>
- </div>
-
-          <div>
-            <ul class="social">
+          <div class="social">
+            <ul>
               <li ><a href="https://www.youtube.com/user/louvre"><img src="assets/svg/im1.svg" alt="footer"class="circle"></a></li>
               <li><a href="https://www.instagram.com/museelouvre/"><img src="assets/svg/im2.svg" alt="footer"class="circle"></a></li>
               <li><a href="https://www.facebook.com/museedulouvre"><img src="assets/svg/im3.svg" alt="footer"class="circle"></a></li>
@@ -253,11 +332,12 @@
               <li><a href="https://www.pinterest.fr/museedulouvre/"><img src="assets/svg/im5.svg" alt="footer"class="circle"></a></li>
             </ul>
         </div>
-      </div>
-    </div>
-<hr>
-  <nav class="container section">
-<div class="footer2">
+
+ </div>
+
+
+ 
+<div class="footer2 h_roboto2">
   <div>
     <ul>
       <li class="white text_dec link">2021 </li></ul> </div>
@@ -269,9 +349,17 @@
       <div>
       <ul><li><a href="https://github.com/ksukxella"class="white text_dec link">Radionova</a></li></ul></div>
     </div>
-  
+
 </nav>
   </footer>
- 
+</div>
+
+
+<script src="assets/popup.js"></script>
+<script src="https://vjs.zencdn.net/7.15.4/video.min.js"></script>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="assets/index.js"></script>
+
 </body>
 </html>
