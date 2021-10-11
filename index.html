@@ -90,7 +90,7 @@
 
       
         <div class="tours_images">
-        <div text_invisiting>
+        <div>
         <a href="tours/tour1.html"target="_blank"><img src="assets/img/img1.jpg"class="tours_images_each" alt="visit"></a>
         <h3 class="h_forum2 dark-title underline-title2">Royal Palace</h3>
         <p class="line1 h_roboto3">360°Virtual Tour</p>
@@ -138,10 +138,20 @@
     <section class="Explore-section dark-section section" id="exploring">
       <div class="explore-container">
         <div class="explor">
-          <h2 class="white-title underline-title2">Picture Explore</h2>
+          <h2 class="white-title underline-title3">Picture Explore</h2>
           <p class="par_1 white_paragh h_roboto4 ">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Dignissimos, fugit autem aut provident maxime beatae soluta.</p>
           <p class="par_2 white_paragh h_roboto4">Lorem ipsum dolor sit amet <span class="letter">consectetur</span> adipisicing elit.<br> Dignissimos, fugit autem aut provident maxime beatae soluta.</p>
           <p class="par_3 white_paragh h_roboto4">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Dignissimos, fugit autem aut provident maxime beatae soluta.</p>
+        </div>
+        <div class="pic_explore"><img src=""></div>
+
+        <div class="img-comp-container">
+          <div class="img-comp-img">
+            <img src="assets/img/pic_explore.png" width="700" height="700">
+          </div>
+          <div class="img-comp-img img-comp-overlay">
+            <img src="assets/img/pic_explore1.png" width="440" height="700">
+          </div>
         </div>
       </div>
   
@@ -255,32 +265,14 @@
             <span class="checkmark"></span>
           </label></div></div>
 
-          
            <button class="button_tickets" id="myBtn">Buy Now</button>
            <div id="myModal" class="modal">
              <div class="modal-content">
-               <img src="assets/svg/logo2.svg">
+               <img src="assets/svg/Vector.svg">
                <h2 class="booking_tickets">Booking Tickets</h2>
                <h4 class="tourto_louvre underline-title2">Tour to louvre</h4>
                <input type="date" id="date" name="date-start" value="Date"   min="2020-01-01" max="2020-12-31">
                <input type="time" id="time" name="time-start" value="Date"  min="01.00" max="00.00">
-            
-               
-
-                <!-- <form action="#" class="form">
-                  <div class="form__field">
-                    <input type="text" name="name" placeholder="Имя*" required />
-                  </div>
-                  <div class="form__field">
-                    <input type="email" name="name" placeholder="E-Mail" />
-                    <span class="form__error">Это поле должно содержать E-Mail в формате example@site.com</span>
-                  </div>
-                  <div class="form__field">
-                    <input type="tel" name="name" placeholder="Телефон" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" minlength="18" maxlength="18" />
-                    <span class="form__error">Это поле должно содержать телефон в формате +7 (123) 456-78-90</span>
-	               </div>
-              </form> -->
-          
                <span class="close">&times;</span>  
              </div>
            </div>
@@ -353,8 +345,8 @@
 </nav>
   </footer>
 </div>
-
-
+<script>initComparisons();</script>
+<script>scr="assets/pic_explore.js"</script>
 <script src="assets/popup.js"></script>
 <script src="https://vjs.zencdn.net/7.15.4/video.min.js"></script>
 <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
